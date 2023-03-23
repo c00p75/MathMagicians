@@ -1,39 +1,55 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wide-button > *:first-child {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#calc-container {
+  width: 600px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#calc-container > div > * {
+  height: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+#calc-container .col,
+#calc-container .col-6 {
+  border-top: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+#calc-container .col:first-child,
+#calc-container .col-6 {
+  border-left: 1px solid gainsboro;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+#calc-container .col:last-child {
+  background-color: orange;
+}
+
+#calc-container .row:last-child {
+  border-bottom: 1px solid gainsboro;
+}
+
+#calc-container button {
+  width: 100%;
+  border: 0;
+  outline: none;
+}
+
+#calc-container button:active {
+  filter: brightness(85%) !important;
+}
+
+#calc-container #result {
+  background-color: gray;
+  font-weight: bold;
 }
