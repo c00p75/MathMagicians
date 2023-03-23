@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
+import Button from './Button';
 
 // Refactoring class component to function component which uses a React hook
 const Calculator = () => {
@@ -21,37 +22,37 @@ const Calculator = () => {
       </div>
 
       <div className="row justify-content-center align-items-center g-2">
-        <button onClick={handleClick} type="button" className="col">AC</button>
-        <button onClick={handleClick} type="button" className="col">+/-</button>
-        <button onClick={handleClick} type="button" className="col">%</button>
-        <button onClick={handleClick} type="button" className="col">÷</button>
+        <Button value="AC" handleClick={handleClick} />
+        <Button value="+/-" handleClick={handleClick} />
+        <Button value="%" handleClick={handleClick} />
+        <Button value="÷" handleClick={handleClick} />
       </div>
 
       <div className="row justify-content-center align-items-center g-2">
-        <button onClick={handleClick} type="button" className="col">7</button>
-        <button onClick={handleClick} type="button" className="col">8</button>
-        <button onClick={handleClick} type="button" className="col">9</button>
-        <button onClick={handleClick} type="button" className="col">x</button>
+        <Button value="7" handleClick={handleClick} />
+        <Button value="8" handleClick={handleClick} />
+        <Button value="9" handleClick={handleClick} />
+        <Button value="x" handleClick={handleClick} />
       </div>
 
       <div className="row justify-content-center align-items-center g-2">
-        <button onClick={handleClick} type="button" className="col">4</button>
-        <button onClick={handleClick} type="button" className="col">5</button>
-        <button onClick={handleClick} type="button" className="col">6</button>
-        <button onClick={handleClick} type="button" className="col">-</button>
+        <Button value="4" handleClick={handleClick} />
+        <Button value="5" handleClick={handleClick} />
+        <Button value="6" handleClick={handleClick} />
+        <Button value="-" handleClick={handleClick} />
       </div>
 
       <div className="row justify-content-center align-items-center g-2">
-        <button onClick={handleClick} type="button" className="col">1</button>
-        <button onClick={handleClick} type="button" className="col">2</button>
-        <button onClick={handleClick} type="button" className="col">3</button>
-        <button onClick={handleClick} type="button" className="col">+</button>
+        <Button value="1" handleClick={handleClick} />
+        <Button value="2" handleClick={handleClick} />
+        <Button value="3" handleClick={handleClick} />
+        <Button value="+" handleClick={handleClick} />
       </div>
 
-      <div className="row justify-content-center align-items-center g-2">
-        <button onClick={handleClick} type="button" className="col-6">0</button>
-        <button onClick={handleClick} type="button" className="col">.</button>
-        <button onClick={handleClick} type="button" className="col">=</button>
+      <div className="row justify-content-center align-items-center g-2 wide-button">
+        <Button value="0" handleClick={handleClick} />
+        <Button value="." handleClick={handleClick} />
+        <Button value="=" handleClick={handleClick} />
       </div>
     </div>
   );
