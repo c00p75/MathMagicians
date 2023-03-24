@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +16,7 @@
 }
 
 #calc-container {
-  width: 600px;
+  width: 50%;
 }
 
 #calc-container > div > * {
@@ -52,4 +55,9 @@
 #calc-container #result {
   background-color: gray;
   font-weight: bold;
+}
+
+.calculator__quoteContainer {
+  font-family: 'Tangerine', monospace;
+  font-size: 2em;
 }
