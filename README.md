@@ -1,33 +1,8 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
-  <img src="https://avatars.githubusercontent.com/u/22550229?s=200&v=4" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Math Magician</b></h3>
+  <h1><b>Math Magician</b></h1>
 
 </div>
 
@@ -57,7 +32,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Movie Site <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
 **Math Magician** "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations as well as read a random math-related quote.
 
@@ -80,7 +55,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="">Comming soon</a></li>
+    <li><a href="render.com">Render is used to deploy this page</a></li>
   </ul>
 </details>
 
@@ -108,14 +83,6 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Video Link -->
-
-## 🎞 Video Link <a name="video-link"></a>
-
-- Comming soon
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -133,7 +100,7 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 - `cd my-folder`
-- `git clone https://github.com/c00p75/Math-Magicians.git`
+- `git clone https://github.com/c00p75/MathMagicians.git`
 
 ### Install
 
@@ -169,9 +136,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Play Videos**
-- [ ] **Reply to comments**
-- [ ] **Download Videos**
+- [ ] **Add interactive animations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,7 +146,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/c00p75/MathMagicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +162,7 @@ If you like this project give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank Microverse Inc for this project.
+I would like to thank Microverse Inc for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -14,7 +14,7 @@ const Calculator = () => {
   };
   // Definfing HTML that should be rendered to the DOM
   return (
-    <div className="container text-center mt-5" id="calc-container">
+    <div className="container text-center mt-5 col-6" id="calc-container">
       <div className="row g-2">
         <div className="col d-flex justify-content-end align-items-center" id="result">
           {initCalc.next || initCalc.operation || initCalc.total || 0}
