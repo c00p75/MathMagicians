@@ -1,12 +1,22 @@
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
-import FetchQuote from './components/FetchQuote';
+import Home from './components/Home';
+import Quote from './components/Quote';
+import Navbar from './components/Navbar';
 
-const App = () => (
-  <div className="App row container d-flex align-items-center">
-    <FetchQuote />
-    <Calculator />
-  </div>
-);
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/quote" element={<Quote />} />
+      </Routes>
+    </Router>
+  );
+}
 
 export default App;
