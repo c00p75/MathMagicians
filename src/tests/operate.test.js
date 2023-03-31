@@ -13,4 +13,7 @@ describe('Test for operate function logic by taking two numbers and an operator 
   test('Divide numbers', () => {
     expect(operate(11, 11, '÷')).toEqual('1');
   });
+  test('Modulo numbers', () => {
+    expect(operate(11, 4, '%')).toEqual('3');
+  });
 });
